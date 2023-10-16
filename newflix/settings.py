@@ -27,7 +27,8 @@ if TOKEN_CSRF:
     SECRET_KEY = TOKEN_CSRF
     CSRF_TRUSTED_ORIGINS = ['https://newflix-production.up.railway.app']
 else:
-SECRET_KEY = 'django-insecure-jd23+@gv63m@xlkhta_9p#+g8ya#w($dbya9#&zg&ikm*a#n#s'
+    SECRET_KEY = 'django-insecure-jd23+@gv63m@xlkhta_9p#+g8ya#w($dbya9#&zg&ikm*a#n#s'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
